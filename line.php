@@ -2,7 +2,7 @@
   
 
 function send_LINE($msg){
- $access_token = '#ใส่ TOKEN HERE'; 
+ $access_token = 'hFthDsfSP72jG+xHl1SykcPaCTlgPaG2jSZUoPGjAckDm/P4XLdfRkthSmOrf2u/uTZJ9ZNZ9mW9alHVc290xGLrW6dn9w8aBoYSw8pT88VGYReZOnRo7MGeG16jgJ3WlKbRULOvIhMYfP2iKvBNTQdB04t89/1O/w1cDnyilFU='; 
 
   $messages = [
         'type' => 'text',
@@ -14,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://api.line.me/v2/bot/message/push';
       $data = [
 
-        'to' => '#ใส่ ID HERE',
+        'to' => 'U8ccac79a5a4db4cb9f8eadea521e518f',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
